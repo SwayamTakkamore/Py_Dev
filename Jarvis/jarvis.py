@@ -94,7 +94,7 @@ if(not os.path.exists("zzpslist.txt")):
             
 path = 'C:\\Jarvis_files\\zzps\\'
 
-sha256_pass = "7d4e3d7f434b674a7bf36c9f76ecdea7766854c5b9c43f488680408eafcadc28"    #My password hashcode 
+sha256_pass = "Write your Passcode SHA256 here"    #My password hashcode 
 sha256_file = f"{path}zzpslist.txt" #My passlist file location
 sha256_file = open(sha256_file, 'r')
 
@@ -106,7 +106,7 @@ for password in sha256_file:
 
 
 def sendEmail(to, content):
-    myMail = 'takkamoreswayam@gmail.com'
+    myMail = 'your email address'
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
