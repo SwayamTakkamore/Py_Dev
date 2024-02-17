@@ -1,5 +1,0 @@
-pyttsx3
-wikipedia
-pyaudio
-speechrecognition
-pafy
